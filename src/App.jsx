@@ -1,4 +1,5 @@
 import './App.css';
+import  Card  from './components/card'
 
 function App() {
 
@@ -31,7 +32,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hotel webpage</h1>
+
+      <Card clients={clients[0]}>Hotel webpage</Card>
+      <Card clients={clients[1]}>Hotel webpage</Card>
+      <Card clients={clients[2]}>Hotel webpage</Card>
+      <Card clients={clients[3]}>Hotel webpage</Card>
     </div>
   );
 }
